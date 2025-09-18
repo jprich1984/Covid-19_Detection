@@ -40,7 +40,7 @@ The pretrained encoder is transferred to a classification task with a novel prep
 - **Noise Background Replacement**: Replace non-lung pixels with normalized noise
 - **Consistent Preprocessing**: Standardized normalization across all sources
 
-![Classification Results with Predictions](path/to/classification_results.png)
+![Classification Results with Predictions](mask_and_pred_2.png)
 *Final classification results showing model predictions with confidence scores*
 
 ## Technical Implementation
