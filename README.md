@@ -32,7 +32,7 @@ The model first learns pixel-level infection patterns through semantic segmentat
 ### Stage 2: Classification with Transfer Learning
 The pretrained encoder is transferred to a classification task with a novel preprocessing pipeline designed to eliminate source bias.
 
-![Classification Input Processing](path/to/processed_images.png)
+![Classification Input Processing](classification_processed_images/data_transforms_check_2_samples.png)
 *Lung-masked input images with noise background replacement*
 
 **Key Innovation - Source Bias Mitigation**:
