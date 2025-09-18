@@ -17,7 +17,7 @@ This project implements a two-stage transfer learning approach that achieves **8
 ### Stage 1: Infection Segmentation Pretraining
 The model first learns pixel-level infection patterns through semantic segmentation on COVID-QU-Ex dataset ground-truth masks.
 
-![Ground Truth Infection Masks](path/to/ground_truth_masks.png)
+![Ground Truth Infection Masks](processed_ground_truth_infection_masks/masked_images_and_masks_1_samples.png)
 *Ground truth infection segmentation masks from COVID-QU-Ex dataset*
 
 ![Predicted Infection Masks](path/to/predicted_masks.png)  
