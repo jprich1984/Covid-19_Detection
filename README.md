@@ -20,7 +20,7 @@ The model first learns pixel-level infection patterns through semantic segmentat
 ![Ground Truth Infection Masks](processed_ground_truth_infection_masks/masked_images_and_masks_1_samples.png)
 *Ground truth infection segmentation masks from COVID-QU-Ex dataset*
 
-![Predicted Infection Masks](predicted_infection_masks_vis/random_val_prediction_20.png)  
+![Predicted Infection Masks](predicted_infection_masks_vis/pred_mask_fixed.png)  
 *Model-predicted infection masks showing learned COVID-19 patterns*
 
 **Architecture**: U-Net with EfficientNet-B4 encoder
