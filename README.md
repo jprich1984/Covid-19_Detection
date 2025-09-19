@@ -44,7 +44,7 @@ The pretrained encoder is transferred to a classification task with a novel prep
 *Final classification results showing infection mask*
 
 ![Gradient-Based Attention](predicted_infection_masks_vis/gradient_based_attention.png)
-* Sample with overlayed feature importance, confirming that the most important features are associated with pixel values that represent areas near opacities.*
+Sample with overlayed feature importance, confirming that the most important features are associated with pixel values that represent areas near opacities*
 
 ## Technical Implementation
 
@@ -59,7 +59,7 @@ EfficientNet-B4 Encoder (from segmentation pretraining)
 ```
 
 ### Dataset Sources
-- **Primary Training**: COVID-QU-Ex, Covidx-Cxr2 COVID-19 Radiography Database
+- **Primary Training**: COVID-QU-Ex, COVIDX-CXR2, COVID-19 Radiography Database
 - **External Validation**: 
   - University of Denver COVID Dataset (603 images)
   - Paul Timothy Mooney Pneumonia Dataset (5,856 images)
