@@ -43,6 +43,9 @@ The pretrained encoder is transferred to a classification task with a novel prep
 ![Classification Results with Predictions](predicted_infection_masks_vis/classification_and_Pred_mask.png)
 *Final classification results showing infection mask*
 
+![Gradient-Based Attention](predicted_infection_masks_vis/gradient_based_attention.png)
+* Sample with overlayed feature importance, confirming that the most important features are associated with pixel values that represent areas near opacities.*
+
 ## Technical Implementation
 
 ### Model Architecture
