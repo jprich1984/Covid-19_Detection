@@ -41,7 +41,7 @@ The pretrained encoder is transferred to a classification task with a novel prep
 - **Consistent Preprocessing**: Standardized normalization across all sources
 
 ![Classification Results with Predictions](predicted_infection_masks_vis/classification_and_Pred_mask.png)
-*Final classification results showing model predictions with confidence scores*
+*Final classification results showing infection mask*
 
 ## Technical Implementation
 
@@ -56,7 +56,7 @@ EfficientNet-B4 Encoder (from segmentation pretraining)
 ```
 
 ### Dataset Sources
-- **Primary Training**: COVID-QU-Ex, COVID-19 Radiography Database
+- **Primary Training**: COVID-QU-Ex, Covidx-Cxr2 COVID-19 Radiography Database
 - **External Validation**: 
   - University of Denver COVID Dataset (603 images)
   - Paul Timothy Mooney Pneumonia Dataset (5,856 images)
@@ -153,12 +153,6 @@ model.load_state_dict(checkpoint['model_state_dict'])
 dataset = CovidClassifierDataset(test_df, transform=val_transform)
 predictions = model(dataset[0][0].unsqueeze(0))
 probability = torch.sigmoid(predictions).item()
-```
-
-## Citation
-If you use this work, please consider citing:
-```
-[Your paper citation when published]
 ```
 
 ## Acknowledgments
